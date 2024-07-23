@@ -1,0 +1,38 @@
+// todo Generate all flex classes
+
+
+// Display
+@each $key, $value in $flex-displays{
+    .d-#{$key}{
+        display: $value !important;
+    }
+}
+
+// Direction
+@each $key, $value in $flex-directions{
+    .flex-direction-#{$key}{
+        flex-direction: $value !important;
+    }
+}
+
+// Wrap
+@each $key, $value in $flex-wraps{
+    .flex-#{$key}{
+        flex-wrap: $value !important;
+    }
+}
+
+// Justify
+@each $key, $value in $flex-justifies{
+    .justify-content-#{$key}{
+        justify-content: $value !important;
+    }
+}
+
+
+// Aligns
+@each $key, $value in $align-items{
+    .align-items-#{$key}{
+        align-items: $value !important;
+    }
+}

@@ -1,0 +1,51 @@
+.btn{
+    @extend .px-4;
+    @extend .py-1;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    border: none;
+    color: inherit;
+    display: inline-block;
+    cursor: pointer;
+    font-size: inherit !important;
+    background-color: inherit;
+    border-radius: map-get($spacers, 1);
+}
+
+.btn:hover{
+    color: map-get($colors, white);
+    background-color: map-get($colors, black);
+}
+
+@each $key, $value in $colors {
+    .btn-bg-#{$key}{
+        background: $value;
+    }
+}
+
+@each $key, $value in $colors {
+    .btn-bg-#{$key}{
+        background: $value;
+        &:hover{
+            background: darken($value, 10%);
+            transition: .7s;
+        }
+    }
+}
+
+@each $key, $value in $colors {
+    .btn-text-#{$key}{
+        color: $value;
+    }
+}
+
+@each $key, $value in $colors {
+    .btn-text-#{$key}{
+        color: $value;
+        &:hover{
+            color: darken($value, 10%);
+            transition: .7s;
+        }
+    }
+}

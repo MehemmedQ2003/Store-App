@@ -1,0 +1,5 @@
+@each $key, $value in $spacers{
+    .gap-#{$key} {
+        gap: $value !important;
+    }
+}

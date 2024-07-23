@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <style>
+        .card {
+            width: 25rem;
+        }
+    </style>
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100">
+
+
+    <div class="card p-4">
+        <h1 class="card-title text-center">Register</h1>
+        <form id="registrationForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="btn btn-success w-100 registerBtn">Register</button>
+        </form>
+    </div>
+
+
+
+    <script src="js/localData.js"></script>
+    <script>
+        let registerBtn = document.querySelector(".registerBtn");
+        registerBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+
+            let form = document.querySelector("#registrationForm");
+            let username = form.username.value;
+            let email = form.email.value;
+            let password = form.password.value;
+        
+            let userObj = {
+                id: users.length + 1,
+                username: username,
+                email: email,
+                password: password
+            };
+        
+            if(!username || !email || !password) {
+                return alert("All fields are required!");
+            }else{
+                alert("Registration successful!");
+                users.push(userObj);
+
+                // This data in localstorage
+                localStorage.setItem("users", JSON.stringify(users));
+                window.location.href = "index.html";
+            }        
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+body{
+    position: relative;
+    #nav{
+        position: sticky;
+        top: 0;
+        background-color: map-get($colors, white);
+        z-index: 2;
+        border-bottom: 2px solid map-get($colors, skin);
+        .container-fluid{
+            .row{
+                padding: 20px 100px;
+                .lists{
+                    .list-item{
+                        a{
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                top: -10px;
+                                left: 0;
+                                width: 0;
+                                height: 2px;
+                                margin-bottom: 10px;
+                                background-color: map-get($colors, butterum);
+                                transition: width 0.3s ease-in-out;
+                            }
+                            &:hover::before{
+                                width: 100%;
+                            }
+                        }
+                        sup{
+                            background-color: map-get($colors, black);
+                            padding: 3px;
+                            border-radius: 10px;
+                            color: map-get($colors, white);
+                        }
+                    }
+                }
+                .menu-icon{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    
+    #header{
+        background-image: url("/img/home/hero-bg-image.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 80vh;
+        .about{
+            @extend .py-15;
+            a{
+                border: 1px solid map-get($colors, butterum);
+                transition: all .4s ease-in-out;
+            }
+            p:nth-child(3){
+                line-height: 1.5;
+            }
+        }
+    }
+
+    .active{
+        display: block !important;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    body{
+        position: relative;
+        #nav{
+            position: sticky;
+            top: 0;
+            background-color: map-get($colors, white);
+            z-index: 2;
+            .container-fluid{
+                .row{
+                    .list-item{
+                        a{
+                            text-decoration: none;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                top: -10px;
+                                left: 0;
+                                width: 0;
+                                height: 2px;
+                                margin-bottom: 2px;
+                                background-color: map-get($colors, butterum);
+                                transition: width 0.3s ease-in-out;
+                            }
+                            &:hover::before{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    padding: 10px;
+                    display: flex;
+                    align-items: start;
+                    justify-content: space-between;
+                    .nav-menu{
+                        margin: 20px 0;
+                        text-align: center;
+                        display: none;
+                        ul{
+                            justify-content: center;
+                        }
+                    }
+                    .logo{
+                        text-align: center;
+                    }
+                    .menu-icon{
+                        display: block;
+                        font-size: 25px;
+                        color: map-get($colors, butterum);
+                    }
+                }
+            }
+        }
+    }
+}

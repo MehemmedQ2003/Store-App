@@ -1,0 +1,12 @@
+#colorsection{
+    .colors{
+        @extend .p-1;
+        border: 1px solid map-get($colors, black);
+        border-radius: 10px;
+        button{
+            width: map-get($spacers, 2);
+            height: map-get($spacers, 2);
+            border-radius: 50%;
+        }
+    }
+}

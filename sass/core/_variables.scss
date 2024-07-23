@@ -1,0 +1,239 @@
+// ***************************************** Grid System ***************************************** //
+
+// Grid system
+$grid-columns: 12;
+
+
+// ***************************************** Size System ***************************************** //
+
+// Width
+$sizes: (
+    0:0%,
+    25:25%,
+    50:50%,
+    75:75%,
+    100:100%
+);
+
+
+// ***************************************** Responsive System ***************************************** //
+
+// Responsive Breakpoints
+$breakpoints:(
+    xs:0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+// ***************************************** Margin, Padding System ***************************************** //
+
+// Margin, Padding
+$spacer: 10px;
+$spacers:(
+    0:($spacer * 0),
+    1:($spacer * 1),
+    2:($spacer * 2),
+    3:($spacer * 3),
+    4:($spacer * 4),
+    5:($spacer * 5),
+    6:($spacer * 6),
+    7:($spacer * 7),
+    8:($spacer * 8),
+    9:($spacer * 9),
+    10:($spacer * 10),
+    11:($spacer * 11),
+    12:($spacer * 12),
+    13:($spacer * 13),
+    14:($spacer * 14),
+    15:($spacer * 15),
+    16:($spacer * 16),
+    17:($spacer * 17),
+    18:($spacer * 18),
+    19:($spacer * 19),
+    20:($spacer * 20)
+);
+
+// ***************************************** Color System ***************************************** // 
+
+// Colors
+$colors: (
+    primary: #007bff,
+    secondary: #6c757d,
+    success: #1ab9a7,
+    info: #17a2b8,
+    warning: #ffc107,
+    danger: #dc3545,
+    light: #f8f9fa,
+    dark: #343a40,
+    white: #fff,
+    gray:gray,
+    black: #000,
+    butterum: #a86e3b,
+    caramel: #faf5f0,
+    lightVividPurple: #8E43F0,
+    cyanVividPurple: #6300E2,
+    luminousVividAmber: #fcb900,
+    luminousVividOrange: #ff6900,
+    lightCyanGreen: #7bdcb5,
+    vividCyanGreen: #00d084,
+    paleCyanBlue: #8ed1fc,
+    vividCyanBlue: #0693e3,
+    skin: #f2e3c6,
+);
+
+
+
+// ***************************************** Font Sysytem ***************************************** // 
+
+// Font Sizes
+$font-sizes:(
+    2:2px,
+    4:4px,
+    6:6px,
+    8:8px,
+    10:10px,
+    12:12px,
+    14:14px,
+    16:16px,
+    18:18px,
+    20:20px,
+    22:22px,
+    24:24px,
+    26:26px,
+    28:28px,
+    30:30px,
+    32:32px,
+    34:34px,
+    36:36px,
+    38:38px,
+    40:40px,
+    42:42px,
+    44:44px,
+    46:46px,
+    48:48px,
+    50:50px,
+    52:52px,
+    54:54px,
+    56:56px,
+    58:58px,
+    60:60px
+);
+
+
+
+// Font Weights
+$font-weights:(
+    "ligher":100,
+    "light":200,
+    "normal":300,
+    "medium":400,
+    "bold":500,
+    "bolder":600,
+    "boldest":700
+);
+
+
+$font-families:(
+    poppins:'Poppins',
+    italic: "italic",
+    roboto:'Roboto',
+    montserrat:'Montserrat',
+    sans-serif:'sans-serif',
+    serif:'serif',
+    monospace:'monospace',
+    cursive:'cursive',
+    fantasy:'fantasy',
+    system-ui:'system-ui',
+    ui-sans-serif:'ui-sans-serif',
+    ui-monospace:'ui-monospace',
+    ui-rounded:'ui-rounded',
+    emoji:'emoji',
+    math:'math',
+    fangsong:'fangsong',
+    inherit:'inherit'
+);
+
+
+
+
+// ***************************************** Flex System ***************************************** // 
+
+$flex-displays:(
+    flex: flex,
+);
+
+
+// Flex direction style
+$flex-directions:(
+    row: row,
+    column: column,
+    row-reverse: row-reverse,
+    column-reverse: column-reverse
+);
+
+
+
+// Flex Wrap direction style
+$flex-wraps:(
+    wrap: wrap,
+    nowrap: nowrap,
+    wrap-reverse: wrap-reverse
+);
+
+
+
+// Flex Justify style
+$flex-justifies:(
+    center: center,
+    between: space-between,
+    around: space-around,
+    start: start,
+    flexStart: flex-start,
+    end: end,
+    flexEnd: flex-end
+);
+
+
+
+// Flex Align style
+$align-items:(
+    center: center,
+    start: start,
+    end: end
+);
+
+
+
+// ***************************************** Position System ***************************************** // 
+
+$positions:(
+    relative: relative,
+    absolute: absolute,
+    fixed: fixed,
+    static: static,
+    sticky: sticky,
+    none: none
+);
+
+
+
+// ***************************************** Display System ***************************************** // 
+
+$displays:(
+    block: block,
+    inline: inline,
+    inline-block: inline-block,
+    none: none,
+);
+
+
+
+// ***************************************** Text System ***************************************** // 
+
+$text-align:(
+    left: left,
+    center: center,
+    right: right
+);

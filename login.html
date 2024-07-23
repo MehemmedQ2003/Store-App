@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            width: 100%;
+            max-width: 400px;
+        }
+        
+    </style>
+</head>
+<body class="d-flex vw-100 vh-100 align-items-center justify-content-center">
+
+    
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h1 class="card-title text-center mb-4">Login</h1>
+            <form id="loginForm">
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email" name="email" />
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Password" name="password" />
+                </div>
+                <button type="submit" class="btn btn-success w-100 loginBtn">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script>
+        let loginBtn = document.querySelector(".loginBtn");
+        let storedData1 = localStorage.getItem("users");
+        let arrayStoredData1 = JSON.parse(storedData1);
+        loginBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            let form = document.querySelector("#loginForm");
+            let email = form.email.value;
+            let password = form.password.value;
+            arrayStoredData1.forEach((element) => {
+                if (
+                    element.email == document.getElementsByName("email")[0].value &&
+                    element.password == document.getElementsByName("password")[0].value
+                ) {
+                    alert("Login Successfull");
+                    localStorage.setItem("isLoggedIn", 1);
+                    localStorage.setItem("loggedUserId", element.id);
+                    window.location.href = "index.html";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
