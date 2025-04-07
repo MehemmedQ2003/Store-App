@@ -1,0 +1,457 @@
+{
+    "navbar": [
+        {
+            "navbar-left" : [
+                {
+                    "id" : 1,
+                    "title" : "Rings",
+                    "url" : "/"
+                },
+                {
+                    "id" : 2,
+                    "title" : "Bracelets",
+                    "url" : "/"
+                },
+                {
+                    "id" : 3,
+                    "title" : "Earrings",
+                    "url" : "/"
+                },
+                {
+                    "id" : 4,
+                    "title" : "Necklaces",
+                    "url" : "/"
+                }
+            ]
+        },
+        {
+            "navbar-right" : [
+                {
+                    "id" : 1,
+                    "title" : "Home",
+                    "url" : "/"
+                },
+                {
+                    "id" : 2,
+                    "title" : "About",
+                    "url" : "/"
+                },
+                {
+                    "id" : 3,
+                    "title" : "Contact",
+                    "url" : "/"
+                }
+            ]
+        }
+    ],
+    "slider":[
+        {
+            "id" : 1,
+            "img" : "/img/slider/logo-01.png"
+        },
+        {
+            "id" : 2,
+            "img" : "/img/slider/logo-02.png"
+        },
+        {
+            "id" : 3,
+            "img" : "/img/slider/logo-03.png"
+        },
+        {
+            "id" : 4,
+            "img" : "/img/slider/logo-04.png"
+        },
+        {
+            "id" : 5,
+            "img" : "/img/slider/logo-05.png"
+        },
+        {
+            "id" : 6,
+            "img" : "/img/slider/logo-06.png"
+        },
+        {
+            "id" : 7,
+            "img" : "/img/slider/logo-07.png"
+        },
+        {
+            "id" : 8,
+            "img" : "/img/slider/logo-08.png"
+        },
+        {
+            "id" : 9,
+            "img" : "/img/slider/logo-09.png"
+        },
+        {
+            "id" : 2,
+            "img" : "/img/slider/logo-02.png"
+        }
+    ],
+    "products":[
+        {
+            "bracelets" : [
+                {
+                    "id" : 1,
+                    "name": "Product Name 1",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 600,
+                    "discount" : 17.5,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/bracelet-01-a-400x500.jpg",
+                        "/img/home/sellings/bracelet-01-b-400x500.jpg",
+                        "/img/home/sellings/bracelet-01-c-100x100.jpg",
+                        "/img/home/sellings/bracelet-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 2,
+                    "name": "Product Name 2",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 700,
+                    "discount" : 15.7,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/bracelets/bracelet-02-a-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-02-b-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-02-c-100x100.jpg",
+                        "/img/home/sellings/bracelet-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 3,
+                    "name": "Product Name 3",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 1200,
+                    "discount" : 17.5,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/bracelets/bracelet-03-a-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-03-b-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-03-c-100x100.jpg",
+                        "/img/home/sellings/bracelet-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 4,
+                    "name": "Product Name 4",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 500,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/bracelets/bracelet-04-a-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-04-b-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-04-c-100x100.jpg",
+                        "/img/home/sellings/bracelet-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 5,
+                    "name": "Product Name 5",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 350,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/bracelets/bracelet-05-a-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-05-b-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-05-c-100x100.jpg",
+                        "/img/home/sellings/bracelet-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 6,
+                    "name": "Product Name 6",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 750,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/bracelets/bracelet-06-a-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-06-b-100x100.jpg",
+                        "/img/home/sellings/bracelets/bracelet-06-c-100x100.jpg",
+                        "/img/home/sellings/bracelet-d-100x100.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "earrings" : [
+                {
+                    "id" : 1,
+                    "name": "Product Name 1",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 500,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/earrings/earrings-01-a-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-01-b-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-01-c-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 2,
+                    "name": "Product Name 2",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 450,
+                    "discount" : 13.3,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/earrings/earrings-02-a-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-02-b-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-02-c-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 3,
+                    "name": "Product Name 3",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 35,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/earrings/earrings-03-a-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-03-b-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-03-c-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 4,
+                    "name": "Product Name 4",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 1700,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/earrings/earrings-04-a-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-04-b-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-04-c-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 5,
+                    "name": "Product Name 5",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 400,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/earrings/earrings-05-a-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-05-b-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-05-c-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 6,
+                    "name": "Product Name 6",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 350,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/earrings/earrings-06-a-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-06-b-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-06-c-100x100.jpg",
+                        "/img/home/sellings/earrings/earrings-d-100x100.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "necklaces" : [
+                {
+                    "id" : 1,
+                    "name": "Product Name 1",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 950,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/necklaces/necklace-01-a-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-01-b-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-01-c-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 2,
+                    "name": "Product Name 2",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 900,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/necklaces/necklace-02-a-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-02-b-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-02-c-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 3,
+                    "name": "Product Name 3",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 350,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/necklaces/necklace-03-a-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-03-b-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-03-c-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 4,
+                    "name": "Product Name 4",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 450,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/necklaces/necklace-04-a-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-04-b-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-04-c-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 5,
+                    "name": "Product Name 5",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 750,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/necklaces/necklace-05-a-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-05-b-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-05-c-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 6,
+                    "name": "Product Name 6",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 550,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/necklaces/necklace-06-a-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-06-b-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-06-c-100x100.jpg",
+                        "/img/home/sellings/necklaces/necklace-d-100x100.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "rings" : [
+                {
+                    "id" : 1,
+                    "name": "Product Name 1",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 1500,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/rings/ring-01-a-100x100.jpg",
+                        "/img/home/sellings/rings/ring-01-b-100x100.jpg",
+                        "/img/home/sellings/rings/ring-01-c-100x100.jpg",
+                        "/img/home/sellings/rings/ring-dring-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 2,
+                    "name": "Product Name 2",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 2200,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/rings/ring-02-a-100x100.jpg",
+                        "/img/home/sellings/rings/ring-02-b-100x100.jpg",
+                        "/img/home/sellings/rings/ring-02-c-100x100.jpg",
+                        "/img/home/sellings/rings/ring-dring-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 3,
+                    "name": "Product Name 3",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 1300,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/rings/ring-03-a-100x100.jpg",
+                        "/img/home/sellings/rings/ring-03-b-100x100.jpg",
+                        "/img/home/sellings/rings/ring-03-c-100x100.jpg",
+                        "/img/home/sellings/rings/ring-dring-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 4,
+                    "name": "Product Name 4",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 750,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/rings/ring-04-a-100x100.jpg",
+                        "/img/home/sellings/rings/ring-04-b-100x100.jpg",
+                        "/img/home/sellings/rings/ring-04-c-100x100.jpg",
+                        "/img/home/sellings/rings/ring-dring-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 5,
+                    "name": "Product Name 5",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 1700,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/rings/ring-05-a-100x100.jpg",
+                        "/img/home/sellings/rings/ring-05-b-100x100.jpg",
+                        "/img/home/sellings/rings/ring-05-c-100x100.jpg",
+                        "/img/home/sellings/rings/ring-dring-d-100x100.jpg"
+                    ]
+                },
+                {
+                    "id" : 6,
+                    "name": "Product Name 6",
+                    "description" : "Ut non elit lorem. Duis pharetra odio vitae nisl",
+                    "price" : 900,
+                    "discount" : 0,
+                    "stock" : 10,
+                    "images" : [
+                        "/img/home/sellings/rings/ring-06-a-100x100.jpg",
+                        "/img/home/sellings/rings/ring-06-b-100x100.jpg",
+                        "/img/home/sellings/rings/ring-06-c-100x100.jpg",
+                        "/img/home/sellings/rings/ring-dring-d-100x100.jpg"
+                    ]
+                }
+            ]
+        }
+    ],
+    "users":[
+        {
+            "id" : 1,
+            "username" : "admin",
+            "email" : "admin@gmail.com",
+            "password" : "admin123"
+        },
+        {
+            "id" : 2,
+            "username" : "user",
+            "email" : "user@gmail.com",
+            "password" : "user123"
+        }
+    ]
+}
